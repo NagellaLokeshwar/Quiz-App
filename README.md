@@ -47,41 +47,17 @@ The **Quiz Application** is a feature-rich command-line interface (CLI) program 
 
 ---
 
-## 📁 Project Structure
-```plaintext
-Quiz-Application/
-├── src/
-│   ├── QuizApp.java       # Main driver program
-│   ├── Question.java      # Defines question structure
-│   ├── Category.java      # Manages quiz categories
-│   ├── ScoreManager.java  # Handles scoring logic
-└── README.md              # Project documentation
-```
-
----
-
-## 🛠️ Commands
-| Command                   | Description                          |
-|---------------------------|--------------------------------------|
-| `java QuizApp`            | Start the application               |
-| `1`, `2`, ... (categories)| Select a quiz category              |
-| `a`, `b`, `c`, `d`        | Choose an answer                    |
-| `exit`                    | Exit the application                |
-
----
-
 ## 📚 Data Structures Used
 - **ArrayList**: Dynamically stores quiz questions.
 - **HashMap**: Maps categories to corresponding questions.
-- **LinkedList**: Maintains a history of user responses.
 
 ---
 
 ## 🌟 Future Enhancements
-- **Time-Based Questions**: Add a timer to increase the challenge.
-- **Leaderboard**: Track scores of different players.
+- **Multiple Questions**: Added multiple question to increase the challenge.
+- **Get Instent Score**: Track scores of player.
 - **GUI Version**: Upgrade to a graphical interface for broader appeal.
-- **Multiplayer Mode**: Allow multiple users to compete.
+- **Certification**: Gives you a cerification of appriciation.
 
 ---
 
